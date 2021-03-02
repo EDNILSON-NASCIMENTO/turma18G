@@ -19,8 +19,6 @@ public class Tarefa4 {
 		 o número de outros calmos;
 		 o número de pessoas nervosas com mais de 40 anos;
 		 o número de pessoas calmas com menos de 18 anos.
-
-		 * 
 		 */
 		//variaveis
 		Scanner leia = new Scanner (System.in);
@@ -49,25 +47,21 @@ public class Tarefa4 {
 			if (humor =='1') {
 				pessoaCalma++;
 			}
-			else if(humor == '2' && sexo == '1') {
+			if(humor == '2' && sexo == '1') {
 				mulherNervosa++;
 			}
-			else if ( humor =='3'&& sexo =='2') {
+			if ( humor =='3'&& sexo =='2') {
 				homemAgressivo++;
 			}
-			else if (humor == '1' && sexo =='3') {
+			if (humor == '1' && sexo =='3') {
 				outrosCalmo++;
 			}
-			else if (humor =='2' && idade >= 40) {
+			if (humor =='2' && idade >= 40) {
 				pessoaNervosaMais40++;
 			}
-			else if (humor == '1' && idade < 18){
+			if (humor == '1' && idade < 18){
 				pessoaCalmaMenos18++;
 			}
-			
-			
-			
-			
 			//opcão para sair do programa a qualquer momento
 			System.out.println("Continua S-sim ou N-não: ");
 			opcao = leia.next().toUpperCase().charAt(0);
