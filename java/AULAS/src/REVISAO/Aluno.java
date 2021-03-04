@@ -9,7 +9,4 @@ public class Aluno extends Pessoa {
 		this.matricula = matricula;
 	}
 	
-	
-	
-	
 }

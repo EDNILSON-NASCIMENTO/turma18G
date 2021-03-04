@@ -5,7 +5,7 @@ public class Conta {
 	//ATRIBUTOS DA CLASSE
 	private int numero;
 	private String cpf;
-	private double saldo;
+	protected double saldo;
 	private boolean ativa;
 	
 	//CONSTRUTOR
@@ -29,6 +29,7 @@ public class Conta {
 		this.ativa = ativa;
 	}
 
+	//ENCAPSULAMENTO - SEGURANÇA - GETTERS AND SETTERS
 	public int getNumero() {
 		return numero;
 	}
@@ -59,6 +60,7 @@ public class Conta {
 	
 	//METODOS
 	public void credito(double valor) {
+		
 		this.saldo = this.saldo + valor;
 		
 	}

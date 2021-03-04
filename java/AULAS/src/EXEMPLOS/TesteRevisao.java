@@ -46,13 +46,6 @@ public class TesteRevisao {
 			System.out.println("CLIENTE É MENOR DE 18 ANOS!");
 			System.out.println("E a idade é "+cliente.idade(2050));
 		}
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
